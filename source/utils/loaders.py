@@ -17,5 +17,6 @@ def load_cogs(bot: commands.Bot, cogs_list: list, cogs_path: str) -> str:
     for cog in cogs_list:
         try:
             bot.load_extension(name = f"{cogs_path}.{cog}")
+            print(f"[Ког {cog}] Успешно загружен!")
         except (ImportError, AttributeError) as error:
             print(f"При загрузке кога {cog} произошла ошибка:\n{error}")
