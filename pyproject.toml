@@ -2,7 +2,7 @@
 name = "csgobotdiscord"
 version = "0.1.0"
 description = "Discord bot with battles system, cs:go items and economy"
-authors = ["AlekseyZz <Aleksey#4360>"]
+authors = ["AlekseyZz <Aleksey#4360>", "csgobotdiscord <maks12345#5770"]
 license = "MIT"
 
 [tool.poetry.dependencies]
