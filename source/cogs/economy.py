@@ -18,7 +18,7 @@ class Economy(commands.Cog):
                         brief = "Команда для просмотра информации о пользователе.",
                         usage = "statistics profile <пользователь: ID, @упоминание, имя#дискриминатор>")
     async def profile(self, ctx: commands.Context) -> None:
-        pass
+        await ctx.send(embed = discord.Embed(title = "Информация о пользователе:", description = "Имя+Дискриминатор:\nАйди:\nБаланс:\nДата регистрации:\nЗвание:\n Опыт:\nДоллары:\nТекущее оружее:")                                             
 
 
 def setup(bot: commands.Bot) -> None:
